@@ -1,0 +1,12 @@
+[package]
+name = "stemmer_uk"
+version = "0.1.0"
+authors = ["Oleh <olehbozhok@gmail.com>"]
+edition = "2018"
+description="Stemmer for the ukrainian language"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes="0.4.12"
+pcre2 = "0.2.3"
+lazy_static = "1.4.0"
